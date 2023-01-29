@@ -21,3 +21,17 @@ function bringSingaras(money) {
 let mytaka = 50;
 let singaras = bringSingaras(mytaka);
 console.log("Eating singaras: ", singaras);
+
+// 
+function getAverage(assignment, assignment1, assignment2) {
+    const total = assignment + assignment1 + assignment2;
+    const average = total / 3; 
+    return average;
+}
+
+const assignmentMarks = 57;
+const assignment1Marks = 47;
+const assignment2Marks = 60;
+
+let myAverage = getAverage(assignmentMarks, assignment1Marks, assignment2Marks);
+console.log("my average so far :",parseFloat (myAverage.toFixed(2)));
