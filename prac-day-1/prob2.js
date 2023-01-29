@@ -16,3 +16,10 @@ for (let i = 412; i <= 456; i +=2) {
 for (let i = 581; i <= 623; i += 2) {
     console.log(i)
 }
+// target: display 30 to 86 break when value reach 44
+for (let i = 30; i <= 86; i++) {
+    if (i == 44){
+        break;
+    };
+    console.log(i);
+};
