@@ -22,11 +22,11 @@ console.log(propertiesValue)
 
 // target:display key value pair side by side
 
-// for (let i = 0;i < keys.length; i++) {
-//     let propertyName = keys[i];
-//     let propertyValue = shoppingCart[propertyName];
-//     console.log(propertyName, propertyValue)
-// };
+for (let i = 0;i < keys.length; i++) {
+    let propertyName = keys[i];
+    let propertyValue = shoppingCart[propertyName];
+    console.log(propertyName, propertyValue)
+};
 
 //  target:display key value pair side by side easy way
 for(let propertyName in shoppingCart) {
