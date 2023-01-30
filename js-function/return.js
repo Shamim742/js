@@ -22,7 +22,7 @@ let mytaka = 50;
 let singaras = bringSingaras(mytaka);
 console.log("Eating singaras: ", singaras);
 
-// 
+// write a function that display average marks
 function getAverage(assignment, assignment1, assignment2) {
     const total = assignment + assignment1 + assignment2;
     const average = total / 3; 
