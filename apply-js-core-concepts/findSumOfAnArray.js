@@ -24,3 +24,21 @@ function getSumOfAge(age) {
 }
 myFriendsAge = [24, 22, 23, 20, 25, 27];
 getSumOfAge(myFriendsAge);
+
+// target:even numbers of an array and add them
+function getOddNumbersOfAnArray(nums) {
+    const oddNums = [];
+    for(let i = 0; i < nums.length; i++){
+        const index = i;
+        const element = nums[index];
+       if (element % 2 !== 0) {
+        console.log(index, element);
+        oddNums.push(element);
+       }
+    }
+    return oddNums;
+};
+const myNums = [15, 29, 65, 55, 88, 91, 99, 57, 43, 21];
+const myOddNums = getOddNumbersOfAnArray(myNums);
+console.log(myOddNums);
+getSumOfArray(myOddNums);
