@@ -5,5 +5,6 @@ function factorial (number) {
     }
     return result;
 };
-const result = factorial (10);
-console.log(result);
+const myNumber = 3;
+const result = factorial (myNumber);
+console.log('factorial: ', myNumber, result);

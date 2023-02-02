@@ -8,5 +8,6 @@ function isLeapYear(year) {
     }
 };
 
-const myYear = isLeapYear(2004);
-console.log("my year is leap year : ", myYear)
+const myYear = 2024;
+const year = isLeapYear(myYear);
+console.log("my year is leap year : ", year)

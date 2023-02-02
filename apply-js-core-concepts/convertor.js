@@ -17,3 +17,12 @@ function milesToKm(miles){
 const myMiles = 4;
 const myKm = milesToKm(myMiles);
 console.log('My Kilometers : ',myKm)
+
+// hours to minute convertor
+function hoursToMinute(hours){
+    const minutes = hours * 60;
+    return minutes;
+}
+const myHours = 20;
+const myMinutes = hoursToMinute(myHours);
+console.log(myMinutes);
